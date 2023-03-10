@@ -15,8 +15,7 @@ static double RandomDoubleBetween(double minValue, double maxValue)
     var next = random.NextDouble();
     return minValue + (next * (maxValue - minValue));
 }
-
-void fillArray(double[,] array)
+void FillArray(double[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -26,8 +25,7 @@ void fillArray(double[,] array)
         }
     }
 }
-
-void outputArray (double[,] array)
+void OutputArray (double[,] array)
 {
     for(int i = 0; i < array.GetLength(0); i++) 
     {
