@@ -8,7 +8,6 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 double [,] array = new double [m,n];
 
-
 static double RandomDoubleBetween(double minValue, double maxValue)
 {
     Random random = new Random();
